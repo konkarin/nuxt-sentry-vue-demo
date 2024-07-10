@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.12.2"
+  },
+  "dependencies": {
+    "@parcel/watcher-wasm": "^2.4.2-alpha.0",
+    "@sentry/vue": "^8.13.0"
+  }
+}
